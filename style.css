@@ -1,0 +1,14 @@
+.c-item{
+    height: 480px;
+    border-left: 0px;
+    width: 100%;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.overview{
+    height: 180px;
+    background-color: #d3dae1;
+}

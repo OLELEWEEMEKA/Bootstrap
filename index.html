@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuroraTours - Travel with us</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="./bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-sm">
+        
+                 <a class="navbar-brand text-uppercase fs-5 text-light" href="#">Auroratour</a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div  class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav ms-auto">
+                 
+                     <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                
+        </ul>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <div class="modal fade" tabindex="-1" id="booking-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Book a Tour</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#">
+                            <div class="row g-2">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="email" id="email_1" class="form-control" placeholder="Your email"> 
+                                        <label for="email_1">Email address:</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <select id="select_1" class="form-select">
+                                            <option>Tromso, Norway - $899</option>
+                                            <option>Abuja, Nigeria - $799</option>
+                                            <option>Yukon, Canada - $849</option>
+                                        </select> 
+                                        <label for="select_1">Pick a tour</label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                                        
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleSlides" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleSlides" data-bs-slide-to="0"class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleSlides" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleSlides" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="WIN_20240806_13_28_49_Pro.jpg" alt="" class="d-block w-100 c-img">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="fs-3 mt-5 text-uppercase">Discover the hidden world</p>
+                        <h1 class="display-1 fw-bolder text-capitalize">The Aurora Tours</h1>
+                        <button type="button" class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a Tour</button>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="Businesspic.jpg" alt="" class="d-block w-100 c-img">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="fs-3 mt-5 text-uppercase">The season has arrived</p>
+                        <h1 class="display-1 fw-bolder text-capitalize">3 available tours</h1>
+                        <button type="button" class="btn btn-primary px-4 py-2 fs-5 mt-5"  data-bs-toggle="modal" data-bs-target="#booking-modal">Book a Tour</button>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="prog1.jpg" alt="" class="d-block w-100 c-img">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="fs-3 mt-5 text-uppercase">Destination activities</p>
+                        <h1 class="display-1 fw-bolder text-capitalize">Go glacier hiking</h1>
+                        <button type="button" class="btn btn-primary px-4 py-2 fs-5 mt-5"  data-bs-toggle="modal" data-bs-target="#booking-modal">Book a Tour</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlides" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon"></span>
+                 <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlides" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+           </button>
+        </div>
+        <section class="overview">
+            <div class="container h-100 d-flex align-items-center">
+                <div class="row w-100 text-center fs-4">
+                    <div class="col-lg">
+                   3 amazing destinations.
+                </div>
+                <div class="col-lg">
+                   Only pay 5% up front.
+                </div>
+                <div class="col-lg">
+                   1000's of members.
+                </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section id="packages" pt-md-5>
+            <h2 class="text-center my-5">Packages</h2>
+            <div class="container">
+                            <div class="row">
+                <div class="col-lg">
+                   <div class="card">
+                    <img src="prog1.jpg" alt="" height="222px">
+                    <div class="card-body">
+                        <h5 class="card-title">Tromso, Norway - $899</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores expedita voluptatibus fugit assumenda quae eaque itaque quia corporis cum necessitatibus ex, tempora ipsa sapiente suscipit sint debitis omnis impedit reprehenderit.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a Tour</button>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="Businesspic.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Abuja, Nigeria - $799</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores expedita voluptatibus fugit assumenda quae eaque itaque quia corporis cum necessitatibus ex, tempora ipsa sapiente suscipit sint debitis omnis impedit reprehenderit.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a Tour</button>
+                        </div>
+                       </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="Businesspic.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Yukon, Canada - $849</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores expedita voluptatibus fugit assumenda quae eaque itaque quia corporis cum necessitatibus ex, tempora ipsa sapiente suscipit sint debitis omnis impedit reprehenderit.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a Tour</button>
+                        </div>
+                       </div>
+                </div>
+            </div>
+            </div>
+            </section>
+            <section id="faq" class="py-md-5">
+                <h2 class="my-5 text-center">FAQ</h2>
+                <div class="container">
+                    <div class="accordion w-75 mx-auto" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed show" data-bs-toggle="collapse" data-bs-target="#collapseOne">How long are the trips</button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia maiores, consectetur facilis dolor, ad provident repellendus unde vero distinctio voluptatem iusto accusantium placeat repudiandae, odio aperiam? Consectetur consequatur delectus tenetur!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button type="button" class="accordion-button collapsed show" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Is the flight included</button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia maiores, consectetur facilis dolor, ad provident repellendus unde vero distinctio voluptatem iusto accusantium placeat repudiandae, odio aperiam? Consectetur consequatur delectus tenetur!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button type="button" class="accordion-button collapsed show" data-bs-toggle="collapse" data-bs-target="#collapseThree">Can I cancel after booking.</button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia maiores, consectetur facilis dolor, ad provident repellendus unde vero distinctio voluptatem iusto accusantium placeat repudiandae, odio aperiam? Consectetur consequatur delectus tenetur!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </section>
+  </main>
+    <footer class="bg-dark py-5 mt-5">
+        <div class="container text-light text-center">
+            <p class="display-5 mb-3">AuroraTours</p>
+            <small class="text-white-50">&copy; Copyright by Emeka. All Rights Reserved</small>
+        </div>       
+    </footer>
+</body>
+</html>
